@@ -1,0 +1,91 @@
+# Faculty
+# Alphabetical order
+
+dorota:
+    display_name: "Dorota Glowacka"
+    webpage: "https://scholar.google.fi/citations?user=sDZkDHQAAAAJ&hl=en"
+    role: faculty
+    image: /img/dorota.jpg
+    bio: "Lecturer"
+    email: "dorota@glowacka.org"
+
+alan:
+    display_name: "Alan Medlar"
+    webpage: "https://scholar.google.fi/citations?user=JIKUSwIAAAAJ&hl=en"
+    github: ajm
+    role: postdoc
+    image: /img/alan.jpg
+    bio: "Visiting researcher"
+    email: "alan@medlar.org"
+
+joel:
+    display_name: "Joel Pyykkö"
+    webpage: "https://fi.linkedin.com/in/joel-pyykkö-8473a4a4"
+    role: grad
+    image: /img/joel.jpg
+    bio: "PhD student"
+
+
+# Alums
+# The order is: PhD/postdoc by year; MS by year; BS by year
+
+paba:
+    display_name: "Kumaripaba Athukorala"
+    role: alum
+    webpage: "https://ie.linkedin.com/in/kumaripaba"
+    bio: "PhD (moved to Rovio)."
+
+evgenia:
+    display_name: "Evgenia Lyjina"
+    role: ugrad-alum
+    webpage: "https://fi.linkedin.com/in/evgenia-lyjina-630082a1"
+    bio: "Research assistant."
+
+kalle:
+    display_name: "Kalle Ilves"
+    role: ugrad-alum
+    webpage: "https://fi.linkedin.com/in/kalleilves"
+    bio: "Research assistant."
+
+ksenia:
+    display_name: "Ksenia Konyushkova"
+    role: ugrad-alum
+    webpage: "http://ksenia.konyushkova.com/"
+    bio: "MSc (started PhD at EPFL)."
+
+sayantan:
+    display_name: "Sayantan Hore"
+    role: ugrad-alum
+    webpage: "https://fi.linkedin.com/in/sayantan-hore-489b8817"
+    bio: "MSc (moved to Verto Analytics)."
+
+lasse:
+    display_name: "Lasse Tyrvainen"
+    role: ugrad-alum
+    webpage: "https://fi.linkedin.com/in/lasse-tyrvainen"
+    bio: "MSc (moved to Cloud'n'Sci)."
+
+alex:
+    display_name: "Alex Yuan Gao"
+    role: ugrad-alum
+    webpage: "https://www.linkedin.com/in/gaoyuankidult"
+    bio: "MSc (started PhD at Uppsala University)."
+
+haibo:
+    display_name: "Haibo Jin"
+    role: ugrad-alum
+    webpage: "https://fi.linkedin.com/in/haibo-jin-2260127b"
+    bio: "MSc (moved to the Chinese Academy of Sciences)."
+
+amin:
+    display_name: "Amin Sorkhei"
+    role: ugrad-alum
+    webpage: "https://fi.linkedin.com/in/amin-sorkhei-62722911a"
+    bio: "MSc (moved to Rovio)."
+
+ping:
+    display_name: "Ping Wang"
+    role: ugrad-alum
+    webpage: "https://www.linkedin.com/in/wang-ping-a781773b"
+    bio: "MSc."
+

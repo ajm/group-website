@@ -1,0 +1,164 @@
+---
+layout: default
+title: Home
+notitle: true
+
+role_groups:
+    - [faculty,postdoc,grad]
+
+role_remain:
+    - [ugrad-alum,alum]
+
+---
+
+<div class="jumbotron">
+    <p>We use <b>reinforcement learning</b> and user modelling to develop practical systems that help users navigate massive data sets interactively. The research interests of the group include personalisation, <a href="https://doi.org/10.1002/asi.23617">exploratory search</a>, <a href="http://doi.acm.org/10.1145/3025171.3025205">experimental design</a> and <a href="http://doi.acm.org/10.1145/3020165.3022141">evaluation methodology</a>. Our research is published in top venues for information retrieval and human-computer interaction. 
+    We are part of the <a href="http://www.ed.ac.uk/informatics/">School of Informatics</a> at the <a href="http://www.ed.ac.uk/">University of Edinburgh</a>.</p>
+    <p><b>Representative publications:</b></p>
+    <p><img src="img/pdficon_small.png" width="16" height="16" alt="PDF" />
+    <a href="http://doi.acm.org/10.1145/3025171.3025205">Towards fine-grained adaptation of exploration/exploitation in information retrieval</a> IUI 2017<br/>
+    <img src="img/pdficon_small.png" width="16" height="16" alt="PDF" />
+    <a href="https://doi.org/10.1002/asi.23617">Is exploratory search different? A comparison of information search behavior for exploratory and lookup tasks</a> JASIST 2016<br />
+    <img src="img/pdficon_small.png" width="16"height="16" alt="PDF" />
+    <a href="http://doi.acm.org/10.1145/2806416.2806609">Balancing exploration and exploitation: Empirical parameterization of exploratory search systems</a> CIKM 2015<br />
+    <img src="img/pdficon_small.png" width="16" height="16" alt="PDF" />
+    <a href="http://doi.acm.org/10.1145/2449396.2449413">Directing exploratory search: Reinforcement learning from user interactions with keywords</a> IUI 2013</p>
+
+</div>
+
+<h2>News</h2>
+<ul class="news">
+{% for post in site.posts limit: site.front_page_news %}
+{% include news-item.html item=post %}
+{% endfor %}
+    {% assign numposts = site.posts | size %}
+    <li>
+        <div class="icon"><i class="fa fa-history"></i></div>
+        <div class="text"><a href="{{ site.base }}/blog/">Older news&hellip;</a></div>
+    </li>
+</ul>
+
+<!--
+<h2>Research Themes</h2>
+
+<div class="card-columns">
+{% for p in site.projects %}
+{% if p.status != "inactive" %}
+<div class="card {%if p.link or p.url%}link{%endif%}">
+    {% if p.link %}
+        {% assign proj_url = p.link %}
+    {% else %}
+        {% capture proj_url %}{{site.base}}{{p.url}}.html{% endcapture %}
+    {% endif %}
+    
+    <a href="{{proj_url}}">
+        <div class="card-block">
+            <div class="title">
+                {% if p.image %}
+                    {% assign imgurl = p.image %}
+                    {% capture init %}{{ p.image | slice: 0,1 }}{% endcapture %}
+                    {% if init == "/" %}
+                        {% capture imgurl %}{{site.base}}{{p.image}}{% endcapture %}
+                    {% endif %}
+                    <h3 class="card-title">
+                        <img class="icon img-responsive" src="{{imgurl}}" alt="{{p.title}}"/>
+                    </h3>
+                {% endif %}                
+                <h3 class="card-title">{{p.title}}</h3>
+            </div>
+            <div class="card-text">
+                {{ p.description | markdownify }}
+            </div>
+        </div>
+        {% if p.people %}
+        <div class="card-footer">
+            {% include project-people.html people=p.people %}
+        </div>
+        {% endif %}
+    </a>
+</div>
+{% endif %}
+{% endfor %}
+</div>
+-->
+
+<h2>People</h2>
+
+<div class="row">
+    {% for grp in page.role_groups %}
+<!--        <div class="col-md-{% if grp contains 'grad' %}8{% else %}4{% endif %}"> -->
+        {% for role in site.roles %}
+        {% if grp contains role.key %}
+        <!-- <h3>{{ role.name }}</h3> -->
+        <div class="col-md-4 people {{ role.key }}">
+            {% for item in site.data.people %}
+                {% assign person = item[1] %}
+                {% if person.role == role.key %}
+                <div class="people">
+                    {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}
+                    {% assign imgurl = false %}
+                    {% if person.image %}
+                        {% capture init %}{{ person.image | slice: 0,2 }}{% endcapture %}
+                        {% if init == "//" %}
+                            {% assign imgurl = person.image %}
+                        {% else %}
+                            {% capture imgurl %}{{site.base}}{{person.image}}{% endcapture %}
+                        {% endif %}
+                    {% endif %}
+                    
+                    {% if imgurl %}
+                        <img class="img-circle profile" src="{{imgurl}}" />
+                    {% else %}
+                        <svg class="profile"><circle class="noprofile" /></svg>
+                    {% endif %}
+                    {% if person.webpage %}</a>{% endif %}
+                    <div class="person">
+                    {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}
+                        <h4>{{person.display_name}}</h4>{% if person.webpage %}</a>{% endif %}
+                    <div class="bio">
+                        {% if person.bio %}<p>{{person.bio}}</p>{% endif %}
+                {% if person.email %}<a href="mailto:{{person.email}}">{{person.email}}</a>{% endif %}
+                    </div>
+                    </div>
+                </div>
+                {% endif %}
+            {% endfor %}
+            </div>
+        {% endif %}
+        {% endfor %}
+{% endfor %}
+</div>
+
+<!--Remaining roles (collaborators, undergrads, alumni) -->
+<div class="row">
+{% for grp in page.role_remain %}
+    <div class="col-md-{% if grp contains "alum" %}7{% else %}5{% endif %}">
+        {% for role in site.roles %}
+        {% if grp contains role.key %}
+            {% assign has_members = false %}
+            {% for item in site.data.people %}
+                {% assign person = item[1] %}
+                {% if person.role == role.key %}
+                    {% assign has_members = true %}
+                {% endif %}
+            {% endfor %}
+            {% if has_members %}
+                <h3>{{ role.name }}</h3>
+                <ul class="people {{role.key}}">
+                {% for item in site.data.people %}
+                    {% assign person = item[1] %}
+                    {% if person.role == role.key %}
+                    <li>
+                        {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}{{person.display_name}}{% if person.webpage %}</a>{% endif %}
+                        {% if person.bio %} <span class="bio bio-inline">{{person.bio}}</span>{% endif %}
+                    </li>
+                    {% endif %}
+                {% endfor %}
+                </ul>
+            {% endif %}
+        {% endif %}
+        {% endfor %}
+    </div>
+{% endfor %}
+</div>
+
