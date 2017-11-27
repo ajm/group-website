@@ -7,7 +7,7 @@ dorota:
     role: faculty
     image: /img/dorota.jpg
     bio: "Lecturer"
-    email: "dorota@glowacka.org"
+    email: "dorota.glowacka@ed.ac.uk"
 
 alan:
     display_name: "Alan Medlar"
@@ -16,7 +16,7 @@ alan:
     role: postdoc
     image: /img/alan.jpg
     bio: "Visiting researcher"
-    email: "alan@medlar.org"
+    email: "alan.j.medlar@helsinki.fi"
 
 joel:
     display_name: "Joel Pyykkö"
