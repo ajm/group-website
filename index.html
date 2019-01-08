@@ -12,8 +12,8 @@ role_remain:
 ---
 
 <div class="jumbotron">
-    <p>We use <b>reinforcement learning</b> and user modelling to develop practical systems that help users navigate massive data sets interactively. The research interests of the group include personalisation, <a href="https://doi.org/10.1002/asi.23617">exploratory search</a>, <a href="http://doi.acm.org/10.1145/3025171.3025205">experimental design</a> and <a href="http://doi.acm.org/10.1145/3020165.3022141">evaluation methodology</a>. Our research is published in top venues for information retrieval and human-computer interaction. 
-    We are part of the <a href="http://www.ed.ac.uk/informatics/">School of Informatics</a> at the <a href="http://www.ed.ac.uk/">University of Edinburgh</a>.</p>
+    <p>We use <b>reinforcement learning</b> and <b>user modelling</b> to develop practical systems that help users navigate massive data sets interactively. The research interests of the group include personalisation, <a href="https://doi.org/10.1002/asi.23617">exploratory search</a>, <a href="http://doi.acm.org/10.1145/3025171.3025205">experimental design</a> and <a href="http://doi.acm.org/10.1145/3020165.3022141">evaluation methodology</a>. Our research is published in top venues for information retrieval and human-computer interaction. 
+    We are part of the <a href="https://www.helsinki.fi/en/computer-science">Department of Computer Science</a> at the <a href="https://www.helsinki.fi/en/">University of Helsinki</a>.</p>
     <p><b>Representative publications:</b></p>
     <p><img src="img/pdficon_small.png" width="16" height="16" alt="PDF" />
     <a href="http://doi.acm.org/10.1145/3025171.3025205">Towards fine-grained adaptation of exploration/exploitation in information retrieval</a> IUI 2017<br/>
@@ -86,14 +86,13 @@ role_remain:
 
 <div class="row">
     {% for grp in page.role_groups %}
-<!--        <div class="col-md-{% if grp contains 'grad' %}8{% else %}4{% endif %}"> -->
         {% for role in site.roles %}
         {% if grp contains role.key %}
-        <!-- <h3>{{ role.name }}</h3> -->
-        <div class="col-md-4 people {{ role.key }}">
+        <!--<div class="col-sm-4 people {{ role.key }}">-->
             {% for item in site.data.people %}
                 {% assign person = item[1] %}
                 {% if person.role == role.key %}
+                <div class="col-md-4 people {{ role.key }}">
                 <div class="people">
                     {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}
                     {% assign imgurl = false %}
@@ -121,9 +120,10 @@ role_remain:
                     </div>
                     </div>
                 </div>
+                </div>
                 {% endif %}
             {% endfor %}
-            </div>
+            <!--</div>-->
         {% endif %}
         {% endfor %}
 {% endfor %}

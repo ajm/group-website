@@ -5,8 +5,8 @@ dorota:
     display_name: "Dorota Glowacka"
     webpage: "https://scholar.google.fi/citations?user=sDZkDHQAAAAJ&hl=en"
     role: faculty
-    image: /img/dorota.jpg
-    bio: "Lecturer"
+    image: /img/dorota2.jpg
+    bio: "Assistant Professor"
     email: "dorota.glowacka@ed.ac.uk"
 
 alan:
@@ -14,26 +14,54 @@ alan:
     webpage: "https://scholar.google.fi/citations?user=JIKUSwIAAAAJ&hl=en"
     github: ajm
     role: postdoc
-    image: /img/alan.jpg
-    bio: "Visiting researcher"
+    image: /img/alan2.jpg
+    bio: "Post-doctoral researcher"
     email: "alan.j.medlar@helsinki.fi"
 
-joel:
-    display_name: "Joel Pyykkö"
-    webpage: "https://fi.linkedin.com/in/joel-pyykkö-8473a4a4"
+arlene:
+    display_name: "Arlene Casey"
+    webpage: "https://www.inf.ed.ac.uk/people/students/Arlene_Casey.html"
     role: grad
-    image: /img/joel.jpg
-    bio: "PhD student"
+    image: /img/arlene.jpg
+    bio: "PhD student (University of Edinburgh)"
 
 
 # Alums
 # The order is: PhD/postdoc by year; MS by year; BS by year
 
+ioannis:
+    display_name: "Ioannis Gkiliris"
+    webpage: "https://uk.linkedin.com/in/ioannisgkiliris"
+    role: ugrad-alum
+    bio: "MSc (moved to Quantexa)"
+
+chienyu:
+    display_name: "Chien-yu Huang"
+    role: ugrad-alum
+    bio: "MSc"
+
+dhruv:
+    display_name: "Dhruv Tripathi"
+    webpage: "https://www.linkedin.com/in/dhruvtripathi/"
+    role: ugrad-alum
+    bio: "MSc (moved to Rabobank)"
+
+peiyu:
+    display_name: "Peiyu Zhang"
+    role: ugrad-alum
+    bio: "MSc"
+
+joel:
+    display_name: "Joel Pyykkö"
+    role: alum
+    webpage: "https://fi.linkedin.com/in/joel-pyykk%C3%B6-8473a4a4"
+    bio: "PhD, 2018"
+
 paba:
     display_name: "Kumaripaba Athukorala"
     role: alum
     webpage: "https://ie.linkedin.com/in/kumaripaba"
-    bio: "PhD (moved to Rovio)."
+    bio: "PhD, 2016 (moved to Rovio)."
 
 evgenia:
     display_name: "Evgenia Lyjina"
