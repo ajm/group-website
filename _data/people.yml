@@ -7,7 +7,7 @@ dorota:
     role: faculty
     image: /img/dorota2.jpg
     bio: "Assistant Professor"
-    email: "dorota.glowacka@ed.ac.uk"
+    email: "glowacka@cs.helsinki.fi"
 
 alan:
     display_name: "Alan Medlar"
