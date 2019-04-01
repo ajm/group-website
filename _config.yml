@@ -1,4 +1,4 @@
-name: Glowacka group
+name: ESP group
 #url:
 
 exclude: [bibble, README.md, Makefile, Dockerfile]
