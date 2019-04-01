@@ -17,11 +17,10 @@
     <body>      
         <div class="container">
           <div class="header">
-            <a href="{{ site.base }}/">
-                <img src="{{ site.base }}/img/logo.jpg"
-                    srcset="{{ site.base }}/img/logo.jpg 2x"
-                    alt="Glowacka group" id="logo">
-            </a>
+            <b style="font-size:18pt">Exploratory Search and Personalisation (ESP) group</b>
+            <!--<a href="{{ site.base }}/">
+                <img src="{{ site.base }}/img/logo.jpg" srcset="{{ site.base }}/img/logo.jpg 2x" alt="Glowacka group" id="logo">
+            </a>-->
             <ul class="nav nav-pills pull-right">
                   {% assign shorturl = page.url | replace:'.html','' | replace:'index','' %}
                   {% for item in site.navigation %}
