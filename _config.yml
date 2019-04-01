@@ -43,8 +43,8 @@ navigation:
 #      link: /research/
     - title: Publications
       link: /publications.html
-    - title: Internships
-      link: /internships.html
+#    - title: Internships
+#      link: /internships.html
 #    - title: Code
 #      link: /code.html
 
