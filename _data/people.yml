@@ -25,6 +25,30 @@ arlene:
     image: /img/arlene.jpg
     bio: "PhD student (University of Edinburgh)"
 
+jing:
+    display_name: "Jing Li"
+    webpage: "https://glowacka.org/"
+    role: grad
+    image: /img/jing.png
+    bio: "Research assistant"
+    email: "jing.li@helsinki.fi"
+
+yang:
+    display_name: "Yang Liu"
+    webpage: "https://www.glowacka.org"
+    role: grad
+    image: /img/yang.png
+    bio: "Research assistant"
+    email: "yang.liu@helsinki.fi"
+
+yu:
+    display_name: "Yu An"
+    webpage: "https://glowacka.org/"
+    role: grad
+    image: /img/placeholder.png
+    bio: "Research assistant"
+    email: "yu.an@helsinki.fi"
+
 
 # Alums
 # The order is: PhD/postdoc by year; MS by year; BS by year
