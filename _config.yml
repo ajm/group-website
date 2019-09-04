@@ -45,7 +45,6 @@ navigation:
       link: /publications.html
 #    - title: Internships
 #      link: /internships.html
-#    - title: Code
-#      link: /code.html
-
+    - title: Teaching
+      link: /teaching.html
 
