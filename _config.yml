@@ -47,4 +47,5 @@ navigation:
 #      link: /internships.html
     - title: Teaching
       link: /teaching.html
-
+    - title: IR Course
+      link: /ir.html

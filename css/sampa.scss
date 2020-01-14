@@ -212,9 +212,9 @@ ul.project-people {
 }
 
 /* Customize container */
-@media (min-width: 768px) {
+@media (min-width: 960px) {
     .container {
-        max-width: 940px;
+        max-width: 1000px;
     }
   
     .card-columns { @include columns(3); }
