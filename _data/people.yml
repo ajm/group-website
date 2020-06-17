@@ -18,40 +18,51 @@ alan:
     bio: "Co-group Leader<br/>Post-doctoral researcher"
     email: "alan.j.medlar@helsinki.fi"
 
-arlene:
-    display_name: "Arlene Casey"
-    webpage: "https://www.inf.ed.ac.uk/people/students/Arlene_Casey.html"
-    role: grad
-    image: /img/arlene.jpg
-    bio: "PhD student (University of Edinburgh)"
-
-jing:
-    display_name: "Jing Li"
-    webpage: "https://glowacka.org/"
-    role: grad
-    image: /img/jing.png
-    bio: "Research assistant"
-    email: "jing.li@helsinki.fi"
-
 yang:
     display_name: "Yang Liu"
     webpage: "https://www.glowacka.org"
     role: grad
     image: /img/yang.png
-    bio: "Research assistant"
+    bio: "PhD student"
     email: "yang.liu@helsinki.fi"
 
-yu:
-    display_name: "Yu An"
+ivan:
+    display_name: "Ivan Kropotov"
     webpage: "https://glowacka.org/"
     role: grad
     image: /img/placeholder.png
     bio: "Research assistant"
-    email: "yu.an@helsinki.fi"
+    email: "ivan.kropotov@helsinki.fi"
+
+daniel:
+    display_name: "Daniel Koch"
+    webpage: "https://glowacka.org/"
+    role: grad
+    image: /img/placeholder.png
+    bio: "Research assistant"
+    email: "daniel.koch@helsinki.fi"
 
 
 # Alums
 # The order is: PhD/postdoc by year; MS by year; BS by year
+
+arlene:
+    display_name: "Arlene Casey"
+    role: alum
+    webpage: "https://www.inf.ed.ac.uk/people/students/Arlene_Casey.html"
+    bio: "PhD, 2020"
+
+jing:
+    display_name: "Jing Li"
+    role: ugrad-alum
+    bio: "MSc (moved to Huawei)"
+    webpage: "https://fi.linkedin.com/in/jing-li-9603"
+
+yu:
+    display_name: "Yu An"
+    role: ugrad-alum
+    bio: "Research assistant"
+    email: "yu.an@helsinki.fi"
 
 ioannis:
     display_name: "Ioannis Gkiliris"
@@ -85,59 +96,59 @@ paba:
     display_name: "Kumaripaba Athukorala"
     role: alum
     webpage: "https://ie.linkedin.com/in/kumaripaba"
-    bio: "PhD, 2016 (moved to Rovio)."
+    bio: "PhD, 2016 (moved to Rovio)"
 
 evgenia:
     display_name: "Evgenia Lyjina"
     role: ugrad-alum
     webpage: "https://fi.linkedin.com/in/evgenia-lyjina-630082a1"
-    bio: "Research assistant."
+    bio: "Research assistant"
 
 kalle:
     display_name: "Kalle Ilves"
     role: ugrad-alum
     webpage: "https://fi.linkedin.com/in/kalleilves"
-    bio: "Research assistant."
+    bio: "Research assistant"
 
 ksenia:
     display_name: "Ksenia Konyushkova"
     role: ugrad-alum
     webpage: "http://ksenia.konyushkova.com/"
-    bio: "MSc (started PhD at EPFL)."
+    bio: "MSc (started PhD at EPFL)"
 
 sayantan:
     display_name: "Sayantan Hore"
     role: ugrad-alum
     webpage: "https://fi.linkedin.com/in/sayantan-hore-489b8817"
-    bio: "MSc (moved to Verto Analytics)."
+    bio: "MSc (moved to Verto Analytics)"
 
 lasse:
     display_name: "Lasse Tyrvainen"
     role: ugrad-alum
     webpage: "https://fi.linkedin.com/in/lasse-tyrvainen"
-    bio: "MSc (moved to Cloud'n'Sci)."
+    bio: "MSc (moved to Cloud'n'Sci)"
 
 alex:
     display_name: "Alex Yuan Gao"
     role: ugrad-alum
     webpage: "https://www.linkedin.com/in/gaoyuankidult"
-    bio: "MSc (started PhD at Uppsala University)."
+    bio: "MSc (started PhD at Uppsala University)"
 
 haibo:
     display_name: "Haibo Jin"
     role: ugrad-alum
     webpage: "https://fi.linkedin.com/in/haibo-jin-2260127b"
-    bio: "MSc (moved to the Chinese Academy of Sciences)."
+    bio: "MSc (moved to the Chinese Academy of Sciences)"
 
 amin:
     display_name: "Amin Sorkhei"
     role: ugrad-alum
     webpage: "https://fi.linkedin.com/in/amin-sorkhei-62722911a"
-    bio: "MSc (moved to Rovio)."
+    bio: "MSc (moved to Rovio)"
 
 ping:
     display_name: "Ping Wang"
     role: ugrad-alum
     webpage: "https://www.linkedin.com/in/wang-ping-a781773b"
-    bio: "MSc."
+    bio: "MSc"
 
