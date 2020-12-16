@@ -18,6 +18,14 @@ alan:
     bio: "Post-doctoral researcher"
     email: "alan.j.medlar@helsinki.fi"
 
+denis:
+    display_name: "Denis Kotkov"
+    webpage: "https://scholar.google.com/citations?hl=en&user=7hp-T8UAAAAJ"
+    role: postdoc
+    image: /img/denis.jpg
+    bio: "Post-doctoral researcher"
+    email: ""
+
 yang:
     display_name: "Yang Liu"
     webpage: "https://www.glowacka.org"
