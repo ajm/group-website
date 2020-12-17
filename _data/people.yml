@@ -160,3 +160,23 @@ ping:
     webpage: "https://www.linkedin.com/in/wang-ping-a781773b"
     bio: "MSc"
 
+kaj:
+    display_name: "Kaj Sotala"
+    role: ugrad-alum
+    bio: "Research assistant"
+
+arttu:
+    display_name: "Arttu Modig"
+    role: ugrad-alum
+    bio: "Research assistant"
+
+chunxiang: 
+    display_name: "Chunxiang Li"
+    role: ugrad-alum
+    bio: "Research assistant"
+
+han:
+    display_name: "Han Xiao"
+    role: ugrad-alum
+    bio: "Research assistant"
+
