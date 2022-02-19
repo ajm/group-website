@@ -4,11 +4,19 @@ layout: null
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	
+<<<<<<< HEAD
+	<title type="text" xml:lang="en">ESP group</title>
+    <link type="application/atom+xml" href="/blog/blog.xml" rel="self"/>
+    <link href="/"/>
+	<updated>2022-02-19T00:20:58+02:00</updated>
+    <id>/</id>
+=======
 	<title type="text" xml:lang="en">{{ site.name }}</title>
     <link type="application/atom+xml" href="{{ site.url }}{{ site.base }}/blog/blog.xml" rel="self"/>
     <link href="{{ site.url }}{{ site.base }}/"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
     <id>{{ site.url }}{{ site.base }}/</id>
+>>>>>>> c605b10372b00144cb060f7d02b4adb725755efe
 	<author>
 		<name>the Sampa group</name>
 	</author>
@@ -28,3 +36,4 @@ layout: null
 	</entry>
 	{% endfor %}
 </feed>
+

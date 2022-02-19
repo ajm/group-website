@@ -37,7 +37,7 @@ yang:
 ivan:
     display_name: "Ivan Kropotov"
     webpage: "https://glowacka.org/"
-    role: grad
+    role: ugrad-alum
     image: /img/placeholder.png
     bio: "Research assistant"
     email: "ivan.kropotov@helsinki.fi"
@@ -54,6 +54,30 @@ daniel:
 # Alums
 # The order is: PhD/postdoc by year; MS by year; BS by year
 
+ivan:
+    display_name: "Ivan Kropotov"
+    role: ugrad-alum
+    image: /img/placeholder.png
+    bio: "MSc"
+    email: "ivan.kropotov@helsinki.fi"
+
+jiayue:
+    display_name: "Jiayue Xue"
+    role: ugrad-alum
+    bio: "MSc"
+
+janne:
+    display_name: "Jaana Louhio"
+    role: ugrad-alum
+    bio: "MSc"
+
+yu:
+    display_name: "Yu An"
+    role: ugrad-alum
+    bio: "MSc (moved to F-Secure)"
+    webpage: "https://fi.linkedin.com/in/yuan001"
+    email: "yu.an@helsinki.fi"
+
 arlene:
     display_name: "Arlene Casey"
     role: alum
@@ -65,12 +89,6 @@ jing:
     role: ugrad-alum
     bio: "MSc (moved to Huawei)"
     webpage: "https://fi.linkedin.com/in/jing-li-9603"
-
-yu:
-    display_name: "Yu An"
-    role: ugrad-alum
-    bio: "Research assistant"
-    email: "yu.an@helsinki.fi"
 
 ioannis:
     display_name: "Ioannis Gkiliris"
