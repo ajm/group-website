@@ -6,7 +6,7 @@ dorota:
     webpage: "https://scholar.google.fi/citations?user=sDZkDHQAAAAJ&hl=en"
     role: faculty
     image: /img/dorota2.jpg
-    bio: "Group Leader<br/>Assistant Professor"
+    bio: "Group Leader<br/>Associate Professor"
     email: "glowacka@cs.helsinki.fi"
 
 alan:
@@ -15,7 +15,7 @@ alan:
     github: ajm
     role: postdoc
     image: /img/alan2.jpg
-    bio: "Post-doctoral researcher"
+    bio: "University researcher"
     email: "alan.j.medlar@helsinki.fi"
 
 denis:
