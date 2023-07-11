@@ -22,7 +22,7 @@ roles:
     - {key: grad, name: Graduate Students}
     - {key: ugrad, name: Undergraduate Students}
     - {key: alum, name: Past PhD Students}
-    - {key: ugrad-alum, name: Past Research Assistants}
+    - {key: ugrad-alum, name: Past Research Assistants and MSc Students}
     - {key: collab, name: Collaborators}
 
 # Number of news stories on the front page.

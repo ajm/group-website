@@ -24,7 +24,7 @@ denis:
     role: postdoc
     image: /img/denis.jpg
     bio: "Post-doctoral researcher"
-    email: ""
+    email: "denis.kotkov@helsinki.fi"
 
 yang:
     display_name: "Yang Liu"
@@ -34,25 +34,40 @@ yang:
     bio: "PhD student"
     email: "yang.liu@helsinki.fi"
 
-ivan:
+ivan2:
     display_name: "Ivan Kropotov"
     webpage: "https://glowacka.org/"
-    role: ugrad-alum
+    role: grad
     image: /img/placeholder.png
-    bio: "Research assistant"
+    bio: "Software designer"
     email: "ivan.kropotov@helsinki.fi"
 
 daniel:
     display_name: "Daniel Koch"
     webpage: "https://glowacka.org/"
     role: grad
-    image: /img/placeholder.png
+    image: /img/daniel.jpg
     bio: "Research assistant"
     email: "daniel.koch@helsinki.fi"
 
 
 # Alums
 # The order is: PhD/postdoc by year; MS by year; BS by year
+
+matti:
+    display_name: "Matti Vainionpaa"
+    role: ugrad-alum
+    bio: "MSc"
+
+heli:
+    display_name: "Heli Huhtilainen"
+    role: ugrad-alum
+    bio: "MSc"
+
+lasse2:
+    display_name: "Lasse Virtanen"
+    role: ugrad-alum
+    bio: "MSc"
 
 ivan:
     display_name: "Ivan Kropotov"
