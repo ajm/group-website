@@ -34,14 +34,6 @@ yang:
     bio: "PhD student"
     email: "yang.liu@helsinki.fi"
 
-ivan2:
-    display_name: "Ivan Kropotov"
-    webpage: "https://glowacka.org/"
-    role: grad
-    image: /img/placeholder.png
-    bio: "Software designer"
-    email: "ivan.kropotov@helsinki.fi"
-
 daniel:
     display_name: "Daniel Koch"
     webpage: "https://glowacka.org/"
